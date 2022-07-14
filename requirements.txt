@@ -1,0 +1,7 @@
+telebot
+wikipedia
+re
+fuzzywuzzy
+requests
+bs4
+random

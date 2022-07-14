@@ -5,3 +5,4 @@ fuzzywuzzy
 requests
 bs4
 random
+os

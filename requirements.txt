@@ -1,11 +1,3 @@
-telebot
-wikipedia
-re
-fuzzywuzzy
-requests
-bs4
-random
-os
 aiogram==2.15
 aiohttp==3.7.4.post0
 beautifulsoup4==4.11.1

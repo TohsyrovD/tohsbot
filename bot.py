@@ -1,6 +1,5 @@
 import random
-
-import config
+# import config
 import telebot, wikipedia, re
 import os
 from fuzzywuzzy import fuzz
@@ -10,8 +9,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import  requests
 from bs4 import BeautifulSoup as b
 
-
-bot = telebot.TeleBot(config.token)
+token = '5242606582:AAFsOtPUFItjKepJ5GSMHpXcW6_cZD7zp0M'
+bot = telebot.TeleBot(token)
 ############################# МОДУЛЬ WIKI ################################################
 # Устанавливаем русский язык в Wikipedia
 wikipedia.set_lang("ru")

@@ -2,9 +2,6 @@ import random
 import telebot, wikipedia, re
 import os
 from fuzzywuzzy import fuzz
-from telebot import types
-import time
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import  requests
 from bs4 import BeautifulSoup as b
 
@@ -179,5 +176,5 @@ def handle_text2(message):
 
 
 if __name__ == '__main__':
-    bot.polling(none_stop=True, interval=0)
-     # bot.infinity_polling()
+    # bot.polling(none_stop=True, interval=0)
+     bot.infinity_polling()

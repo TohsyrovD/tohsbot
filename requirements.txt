@@ -4,6 +4,7 @@ fuzzywuzzy==0.18.0
 wikipedia==1.4.0
 telepot==12.7
 beautifulsoup4==4.11.1
+python-telegram-bot==11.1.0
 
 
 
